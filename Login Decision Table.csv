@@ -1,0 +1,21 @@
+Input/Actions,TC 1,TC 2,TC 3,TC 4
+Email,T,T,F,F
+Password,T,F,T,F
+Output,T,F,F,F
+Input/Actions,TC 1,TC 2,TC 3,TC 4,TC 5,TC 6,TC 7,TC 8
+Credit Score must be equal or more 700,T,T,,,,,,
+Income must be equal or more 50k,T,T,,,,,,
+Employement Status: Parmanent,T,F,,,,,,
+Output 1 : Approval,Yes,No,,,,,,
+Output 2 : Reject,No,Yes,,,,,,
+Input/Actions,TC 1,TC 2,TC 3,TC 4,TC 5,TC 6,TC 7,TC 8,TC 9,TC 10,TC 11,TC 12
+"Item Type (Electronics, Clothing, Books)",TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,
+Item Price (Different price ranges),TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,
+"User Type (Regular User, Premium User)",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,
+Cart Total (Total price of items in the cart),TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,
+"Discount Code (Valid, Invalid, None)",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,
+
+Add Item to Cart,YES,YES,YES,YES,YES,YES,YES,YES,YES,YES,YES,
+Calculate Cart Total,YES,YES,YES,YES,NO,YES,YES,YES,NO,NO,NO,
+Apply Discount,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,
+Display Final Cart Total,YES,YES,YES,YES,NO,YES,YES,YES,NO,NO,NO,
